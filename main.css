@@ -1,9 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 
 body{
+    margin: 0;
     background-color: #F6F6F6;
+    font-family: "Roboto", sans-serif;
 }
 
 .container{
     background-color: #FFFFFF;
+    text-align: left;
+    width: 75%;
+    height: 75%;
+    position: relative;
+    margin: 50% 2em 2em 2em;
+    padding: 5%;
+    justify-items: auto;
+    border-radius: 3%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;   
+}
+
+ul li{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+ul li label{
+    font-weight: bold;
     
 }
+
+ul li input{
+    border-radius: 5px;
+    border: 2px solid #F6F6F6;
+    width: 95%;
+}
+
