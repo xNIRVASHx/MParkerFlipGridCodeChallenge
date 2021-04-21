@@ -9,7 +9,7 @@ body{
 
 .container{
     background-color: #FFFFFF;
-    text-align: left;
+    text-align: right;
     width: 75%;
     height: 75%;
     position: relative;
@@ -17,6 +17,24 @@ body{
     padding: 5%;
     justify-items: auto;
     border-radius: 3%;
+    box-shadow: 0px 4px 8px 0px #e6e5e5, 0 0 6px 4px #e6e5e5;
+}
+
+h1, p, ul{
+    text-align: left;
+}
+
+h1 {
+    font-weight: 800;
+    line-height: 1.05em;
+}
+
+h1::first-line{
+    font-weight: bold;
+}
+
+p{
+    font-weight: 500;
 }
 
 ul{
@@ -31,13 +49,24 @@ ul li{
 }
 
 ul li label{
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 ul li input{
-    border-radius: 5px;
-    border: 2px solid #F6F6F6;
-    width: 95%;
+    border-radius: 7px;
+    border: 2px solid #e6e5e5;
+    width: 97%;
+    height: 2em;
+    margin-top: .4em;
+}
+
+button{
+    background-color: red;
+    background-image: linear-gradient(to right, orangered 11%, red 100%);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    height: 2em;
+    margin-top: .4em;
 }
 
