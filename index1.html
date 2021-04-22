@@ -7,16 +7,19 @@
     <meta name="author" content="Myles Parker">
     <title>Flipgrid</title>
     <link rel="stylesheet" href="main.css">
-
+    <script defer src="signin.js"></script>
+    
 </head>
 <body>
+
     <div class="container">
         
-        <h1>Let's<br>Sign Up</h1>
+        <h1 id="header">Let's<br>Sign Up</h1>
+
         <p>Use the form below to sign up for this super awesome service. You're only a few steps away!</p>
 
         <!--send info to second html-->
-        <form action="/index2.html">
+        <form id="Form">
             <ul>
                 <li>
                     <label for="FirstName">First Name</label>
@@ -30,23 +33,11 @@
                 <li>
                     <label for="Password">Password</label>
                     <input type="password" name="Password" id="Password" required title="Your password needs to be between 8 and 30 characters long and contain one uppercase letter, one symbol, and a number">
-                </li>
-                    
-                
+                </li>  
             </ul>
-
             <button type="submit">Sign Up</button>
-
-
-
-
         </form>
-        
-        
-
-
-
-
     </div>
+
 </body>
 </html>
