@@ -16,11 +16,11 @@
         
         <h1 id="header">Let's<br>Sign Up</h1>
 
-        <p id="help">Use the form below to sign up for this super awesome service. You're only a few steps away!</p>
+        <p id="instructions">Use the form below to sign up for this super awesome service. You're only a few steps away!</p>
 
         <!--send info to second html-->
         <form method="GET"> <!--using Get instead of Post since I have not set up a server-->
-            <ul id="dac">
+            <ul id="list">
                 <li>
                     <label for="FirstName">First Name</label>
                     <input type="text" name="name" id="FirstName" required title="Enter first name">
@@ -35,7 +35,7 @@
                     <input type="password" name="password" id="Password" required title="Your password needs to be between 8 and 30 characters long and contain one uppercase letter, one symbol, and a number">
                 </li>  
             </ul>
-            <p id="ee">snsnsngs</p>
+            <p id="displayEmail" class="displayEmail"></p>
             <button type="submit" id="btn" onclick="ab()">Sign Up</button>
         </form>
     </div>

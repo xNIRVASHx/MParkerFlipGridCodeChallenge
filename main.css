@@ -52,6 +52,10 @@ ul li label{
     font-weight: bold;  
 }
 
+.displayEmail{
+    font-weight: bold;
+}
+
 ul li input{
     border-radius: 7px;
     border: 2px solid #e6e5e5;
