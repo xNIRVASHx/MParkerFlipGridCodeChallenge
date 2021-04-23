@@ -1,4 +1,5 @@
 const password = document.getElementById("Password")
+const name = document.getElementById("FirstName")
 const form = document.getElementById("Form")
 const errorElement = document.getElementById("error")
 form.addEventListener("submit", (e) => {
@@ -15,8 +16,6 @@ form.addEventListener("submit", (e) => {
     if(password.value === "password"){
         messages.push("Password cannot be password")
     }
-
-
 
     if(messages.length > 0){
         e.preventDefault()
