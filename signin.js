@@ -17,7 +17,7 @@ form.addEventListener("submit", (e) => {
         messages.push("Password cannot be password")
     }
 
-    if(password.value === "12345678"){
+    if(password.value === "123456789"){
         messages.push("Password cannot be password")
     }
 
