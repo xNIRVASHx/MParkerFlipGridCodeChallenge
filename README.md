@@ -5,7 +5,7 @@ Project Description
 This project consist of a sign up page that has three fields for a user to enter information. Once the information is entered the user will be able to click on the "Sign Up" button. After pressing the button a welcome message with their name , a short message with an instruction for the user to follow, and the email they entered just below the message. Also, the "Sign Up" button will change to a "Sign In" button. 
 The three feilds "First Name", "Email Address", and Password" all require something to be typed into them before the "Sign Up" button will function. If a feild is left empty a message will be displayed alerting the user to needing fill-in the feild.
 The "Email Address" feild requires the user enter an email with a "@", ".", and "com" for the feild to be considered complete.
-The "Password" feild has several rule that a user must do before they can sign up. Their password must be more than or equal to 8 characters, less than or equal to 20 characters, and cannot be set to "password" or "12345678". If one or more of the rules are broken message in red will appear to tell the user what they are doing wrong.
+The "Password" feild has several rule that a user must do before they can sign up. Their password must be more than or equal to 8 characters, less than or equal to 20 characters, and cannot be set to "password" or "123456789". If one or more of the rules are broken message in red will appear to tell the user what they are doing wrong.
 
 
 
